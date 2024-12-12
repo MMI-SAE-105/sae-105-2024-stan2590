@@ -1,0 +1,15 @@
+.footer {
+    background-color: #275754; /* Couleur de fond pour le pied de page */
+    color: white; /* Texte en blanc pour contraster */
+    padding: 20px; /* Ajoute de l'espace interne */
+    text-align: center; /* Centre le texte */
+    font-size: 0.9rem; /* Taille de police légèrement réduite */
+}
+
+.footer .section-pieddepage li {
+    list-style: none;
+    display: inline-block; 
+    margin: 0 10px; 
+  }
+
+    
