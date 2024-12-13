@@ -27,6 +27,7 @@
   transition: transform 0.3s ease-in-out;
   align-items: center;
   justify-content: center;
+  font-family: shrikhand;
 }
 
 /* Afficher le menu lorsqu'il est ouvert */
@@ -92,3 +93,28 @@ body {
     width: 500px;    /* Modifier la largeur de l'image */
     height: auto;    /* Ajuste la hauteur automatiquement */
   }
+  button {
+    background-color: #00c8e5; /* Bleu clair */
+    border: none; /* Supprime les bordures */
+    border-radius: 20px; /* Coins arrondis */
+    padding: 10px 20px; /* Espacement interne */
+    cursor: pointer; /* Curseur pointeur */
+    transition: all 0.3s ease-in-out; /* Transition douce */
+    display: inline-block; /* Alignement en ligne */
+}
+
+button a {
+    text-decoration: none; /* Supprime le soulignement */
+    color: black; /* Texte noir */
+    font-weight: bold; /* Texte en gras */
+    font-family: Arial, sans-serif; /* Police lisible */
+    font-size: 1rem; /* Taille de police */
+}
+
+button:hover {
+    background-color: #00a3c2; /* Changement de couleur au survol */
+}
+p {
+    font-family: 'Roboto', regular; /* Police Roboto avec fallback en sans-serif */
+}
+  
