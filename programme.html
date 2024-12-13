@@ -34,7 +34,8 @@
         aria-label="menu"
         aria-expanded="false"
         aria-controls="mainNav"
-      >
+        <button class="menu-toggle-btn" aria-expanded="false">☰</button>
+      
         <span class="menu-btn__bar" aria-hidden="true"></span>
       </button>
 
@@ -152,23 +153,25 @@
           </nav> 
         </div>
             <h2>séances spéciales :</h2>
-            <nav class="header__carousel carousel" id="mainNav" aria-hidden="true">
-              <ul class="carousel__list list-unstyled">
-                <li class="carousel__item">
+            <div class="carousel" aria-labelledby="carousel-heading">
+                <div class="carousel__container" role="region" aria-live="polite">
+                    <div class="carousel__item">
                       <a href="#" aria-label="Avant-premières"
                         ><img src="/assets/image 17.png" alt="Avant-premières"
                       /></a>
-                    </li>
                     <h3>Avant-premières
                     </h3>
                     <p> Soyez parmi les premiers à découvrir des films inédits en exclusivité.</p>
+                    </div>
+                    <div class="carousel__item">
                     <a href="#" aria-label="masterclass"
                         ><img src="/assets/image 18.png" alt="masterclass"
                       /></a>
-                    </li>
                     <h3>masterclass
                     </h3>
                     <p>Apprenez des secrets du métier grâce à des sessions animées. e</p>
+                </div>
+                <div class="carousel__item">
                     <a href="#" aria-label="rencontrent"
                         ><img src="/assets/image 19.png" alt="rencontrent"
                       /></a>
@@ -176,6 +179,7 @@
                     <h3>rencontrent
                     </h3>
                     <p>Échangez avec les réalisateurs, acteurs et sportifs.</p>
+                    </div>
             </nav> 
           </div>
           <h2>activités annexes</h2>

@@ -1,0 +1,11 @@
+/* Variable collection */
+:root {
+    /* Mode 1 */
+    /* color */
+    --color: #e57c2c;
+    --color-2: #43d1ed;
+    --color-3: #755555;
+    --color-4: #f9efcc;
+    
+    font-sans-serif: "Shrikhand", regular;
+  }

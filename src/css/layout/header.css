@@ -1,0 +1,94 @@
+/* Bouton Menu */
+.menu-btn {
+  position: fixed;
+  top: 20px;
+  background-color: #f9efcc;
+  color: black;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  z-index: 1000;
+  right: 20px;
+}
+
+/* Menu - masqué par défaut */
+.menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 125vw;
+  height: 100vh;
+  background-color: #f9efcc;
+  z-index: 999;
+  padding: 20px;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+  transform: translateX(100%); /* Masquer le menu par défaut */
+  transition: transform 0.3s ease-in-out;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Afficher le menu lorsqu'il est ouvert */
+.menu[aria-hidden="false"] {
+  transform: translateX(0); /* Affiche le menu */
+}
+
+/* Liste du menu */
+.menu__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu__link {
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 10px 0;
+  font-size: 1.2rem;
+}
+
+.menu__link:hover {
+  color: #007bff;
+}
+
+/* Bouton pour fermer le menu (la croix) */
+.close-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: black;
+  cursor: pointer;
+}
+
+/* Style pour la croix au survol */
+.close-btn:hover {
+  color: #ff0000;
+}
+.body {
+    background-color: #f9efcc;
+
+}
+body {
+    background-color: #f9efcc;  /* Beige clair */
+    font-family: roboto;
+    margin: 0;
+    padding: 0;
+    
+  }
+  h1, h2, h3 {
+    font-family: 'Shrikhand', regular; /* Utilise Arial comme police pour les titres */
+  }
+
+  .image {
+    width: 300px;   /* Modifier la largeur de l'image */
+    height: auto;   /* Ajuste la hauteur automatiquement pour garder les proportions */
+  }
+  #image-resize {
+    width: 500px;    /* Modifier la largeur de l'image */
+    height: auto;    /* Ajuste la hauteur automatiquement */
+  }

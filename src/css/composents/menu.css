@@ -1,2 +1,37 @@
-
+/* Cacher le menu par défaut */
+.menu {
+    display: none;
+  }
+  
+  /* Afficher le menu lorsqu'il est ouvert */
+  .menu.menu--open {
+    display: block;
+  }
+  
+  /* Transition fluide */
+  .menu {
+    transition: all 0.3s ease-in-out;
+  }
+/* Par défaut, l'overlay est caché */
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Couleur semi-transparente */
+    z-index: 1000; /* S'assurer que l'overlay est au-dessus du contenu */
+  }
+  
+  /* Afficher l'overlay lorsqu'il est actif */
+  .overlay.overlay--active {
+    display: block;
+  }
+  
+  /* Empêcher le défilement du contenu principal lorsque le menu est ouvert */
+  .body--menu-open {
+    overflow: hidden;
+  }
+    
   

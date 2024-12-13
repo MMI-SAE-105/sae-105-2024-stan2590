@@ -20,6 +20,7 @@
     <script type="module" src="/src/js/script.js"></script>
   </head>
   <body>
+    <div class="overlay" aria-hidden="true"></div>
     <header class="header">
       <a class="header__logo-link" href="accueil.html">
         <img
@@ -28,18 +29,21 @@
           alt="Logo Ca va trai'ler"
         />
       </a>
-
       <button
         class="header__menu-btn menu-btn"
         aria-label="menu"
         aria-expanded="false"
         aria-controls="mainNav"
-      >
+        <button class="menu-btn" aria-expanded="false">☰</button>
+      
+      
         <span class="menu-btn__bar" aria-hidden="true"></span>
       </button>
+      
 
       <nav class="header__menu menu" id="mainNav" aria-hidden="true">
         <ul class="menu__list list-unstyled">
+          <button class="close-btn" aria-label="Fermer le menu">×</button>
           <li class="menu__item">
             <a class="menu__link" href="programme.html">programme</a>
           </li>
@@ -89,11 +93,13 @@
         </div>
       </nav>
     </header>
+    <script src="script.js"></script>
+    
 
     <main>
       <div class="hero hero--home">
         <h1 class="hero__title hero__title--home">Ca va trail'er.</h1>
-        <img class="hero__img" src="/assets/NNrQiHRHOuMDq19FrUycP 1.png" alt="" />
+        <img class="hero__img" src="/assets/NNrQiHRHOuMDq19FrUycP 1.png" alt="image cinema" id="image-to-resize"/>
         <h2 class="hero__title2">
             bienvenue au festival de “Ca va trai’ler”
         </h2>
