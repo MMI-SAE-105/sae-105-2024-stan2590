@@ -6,8 +6,8 @@
 - NOM : gay
 - PRÉNOM : evan
 - GROUPE : B1
-- URL du site : 
-- URL FIGMA : 
+- URL du site : http://sae105.evan-gay.fr/
+- URL FIGMA : https://www.figma.com/design/dUFYMv13xLQHmTnfttq2Q2/Untitled?node-id=46-939&t=VbGYe7tndRoQLSTE-1
 
 ## Sujet
 
